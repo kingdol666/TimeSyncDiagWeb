@@ -1,0 +1,40 @@
+{
+  "name": "timesync-diag-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "@ant-design/nextjs-registry": "^1.2.0",
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@tanstack/react-query": "^5.90.9",
+    "@tanstack/react-table": "^8.21.3",
+    "antd": "^5.28.1",
+    "axios": "^1.13.2",
+    "dayjs": "^1.11.19",
+    "next": "16.0.3",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.4.1",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b"
+}
